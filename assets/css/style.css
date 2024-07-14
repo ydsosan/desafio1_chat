@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+}
+.chat-box {
+    display: flex;
+    
+
+
+}
+.contactos {
+    flex-basis: 20em;
+}
+.flex-container {
+    display: flex;
+    height: 5em;
+    border: solid 1px #bec1bb;
+    justify-content: space-between;
+    
+
+}
+
+.item {
+    display: flex;
+padding: 1em;
+padding-left: 2em;
+
+}
+
+
+.flex-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50em;
+    border: solid 2px #bec1bb;
+    padding: 0em;
+}
+
+.item.maria img {
+        max-width: 70%;
+            max-height: 70%;
+            border-radius: 50em;
+            border: solid 2px #bec1bb;
+            padding: 0em;
+}
+.item2 {
+    padding-left: 1em;
+}
+.item2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0;
+    line-height: 0;
+    
+}
+
+#active {
+    font-size: 10px;
+    color: #bec1bb;
+    padding-top: 0.5em;
+}
+
+.icon {
+    padding: 2em;
+}
+
+.icon i {
+    color: #828485;
+}
+
+.flex-container.boton {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 1em;
+
+}
+.item3 {
+    padding-left: 1em;
+}
+.item3 p {
+font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 0;
+}
+
+#subtitle {
+    font-size: 13px;
+    padding-top: 0.5em;
+
+}
+
+.box {
+    background-color: #A491D2;
+    width: 13em;
+    max-height: 3em;
+    text-align: center;
+
+}
+
+.box p {
+    font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    color: white;
+}
+
+.manos img {
+    max-width: 40%;
+}
+
+.networking {
+    background-color: #e8e8e8;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20em;
+    padding-bottom: 0;
+    max-width: 40em;
+    
+
+
+}
+
+.manos {
+    display: flex;
+    justify-content: center;
+                
+}
+h2 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+}
+
+.textohand {
+    text-align: center;
+    
+}
+.textohand p {
+        font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+
+}
